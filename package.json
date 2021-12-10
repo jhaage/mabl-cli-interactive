@@ -1,0 +1,23 @@
+{
+  "name": "mabl-cli-interactive",
+  "version": "1.0.0",
+  "description": "An interactive prompt-based CLI tool for the mabl-cli package. This project's goal is to make using the mabl-cli tool much easier.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhaage/mabl-cli-interactive.git"
+  },
+  "author": "Jeremy Haage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhaage/mabl-cli-interactive/issues"
+  },
+  "homepage": "https://github.com/jhaage/mabl-cli-interactive#readme",
+  "dependencies": {
+    "@mablhq/mabl-cli": "^1.12.33",
+    "inquirer": "^8.2.0"
+  }
+}
